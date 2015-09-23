@@ -1,0 +1,30 @@
+.navActive a{ color: #fed136 !important;}
+.navActive a:hover{ color: #fed136 !important; }
+#Google {background: #C9302C; border-color: #C9302C; float: right;}
+#Google:Hover {background: #C0302C !important; border-color: #C0302C !important; }
+#Google:Active {background: #C0302C !important; border-color: #C0302C !important; }
+.navDrop{background-color: transparent}
+.navDrop:active {background-color: transparent}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {}
+
+
+.dropdown-menu{background-color: transparent !important; border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;}
+.dropdown-menu:hover {background-color: transparent !important; border: none}
+
+#navDrop{background-color: transparent !important; color: #FFFFFF; border: none;}
+#navDrop:focus{background-color: transparent !important; color: #fed136; border: none;}
+#navDrop:hover{background-color: transparent !important; color: #fed136; border: none;}
+
+#navDrop a{background-color: transparent !important; color: #FFFFFF;}
+#navDrop a:focus{background-color: transparent !important; color: #fed136; }
+#navDrop a:hover{background-color: transparent !important; color: #fed136; }
+#navDrop ul {background-color: transparent !important; color: #fed136; border: none;}
+#navDrop ul li{background-color: transparent !important; color: #FFFFFF; border: none; box-shadow: none; -webkit-box-shadow: none;}
+#navDrop ul li a{background-color: transparent !important; color: #FFFFFF; border: none; box-shadow: none; -webkit-box-shadow: none;}
+#navDrop ul li a:hover{background-color: transparent !important; color: #fed136; border: none;}
+
+
+#HomeTranslate {width: 100%; background-color: white;}

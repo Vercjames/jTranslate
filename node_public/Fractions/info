@@ -1,0 +1,11 @@
+<!-- LOCAL INFORMATION -->
+    <strong>id</strong>: <%= user._id %><br>
+    <strong>email</strong>: <%= user.local.username %><br>
+    <strong>password</strong>: <%= user.local.password %>
+
+
+<!-- GOOGLE INFORMATION -->
+    <strong>id</strong>: <%= user.google.id %><br>
+    <strong>token</strong>: <%= user.google.token %><br>
+    <strong>email</strong>: <%= user.google.email %><br>
+    <strong>name</strong>: <%= user.google.name %>
