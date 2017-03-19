@@ -1,12 +1,13 @@
 {
-  "name": "translate",
-  "version": "1.0.0",
-  "description": "translation application",
-  "main": "index.js",
+  "name": "jTranslate",
+  "version": "1.4.0",
+  "description": "Modern Translation Application",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "James Maxfield (Jasilo)",
+  "author": "https://github.com/vercjames",
+  "repository": "https://github.com/vercjames/jTranslate/",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^0.8.5",
@@ -22,7 +23,8 @@
     "passport": "^0.3.0",
     "passport-facebook": "^2.0.0",
     "passport-local": "^1.0.0",
-    "passport-google-oauth": "~0.2.0"
-
+    "passport-google-oauth": "~0.2.0",
+    "dotenv": "^2.0.0"
   }
 }
+

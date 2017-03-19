@@ -1,0 +1,58 @@
+# Operated Generated Files
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+._*
+.Trashes
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+Thumbs.db
+
+
+# Custom Ignores
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+#.env
+.npm
+.idea
+
+
+# Dependency directory
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+node_modules
+bower_components
+#Noted-Analysis
+#Noted-Architecture
+#Noted-Authentication
+#Noted-Routing
+#Noted-Views
+
+
+# Local Art Assets
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Assets-Adobe
+Assets-Resources
+
+# Github's recommended Node .gitignore items
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Logs
+npm-debug.log*
+*.log
+logs
+
+
+# Runtime data
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+*.seed
+
+
+# Coverage directory used by tools like istanbul
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+coverage
+
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+# =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+build/Release
+public/*
+
+
+
