@@ -20,10 +20,6 @@ var jTranslate = angular.module("jTranslate",["ngRoute"]);
 // Template Controller || Navigation
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 jTranslate.controller("CtrlTranslate", ['$http', '$scope', 'service', function($http, $scope, service){
-  // Function | isActive Navigation Class
-  // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-
-  console.log('CtrlTranslate loaded');
   $scope.ObjMessage = {};
   var userFetch = function() {
     $http.get('/Bookmarks').success(function (response) {
