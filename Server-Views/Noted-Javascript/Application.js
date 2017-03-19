@@ -8,7 +8,7 @@ console.log("=====================================================");
 // Application Vercjames.com/
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 // var ApplicationAddress = "http://www.Vercjames.com";
-var ApplicationAddress = "http://localhost:3000";
+var ApplicationAddress = "http://vercjames:3000";
 
 
 // Application Client Side Routing
@@ -22,6 +22,8 @@ var jTranslate = angular.module("jTranslate",["ngRoute"]);
 jTranslate.controller("CtrlTranslate", ['$http', '$scope', 'service', function($http, $scope, service){
   $scope.ObjMessage = {};
   var userFetch = function() {
+    console.log("User Access Check");
+    console.log("================================");
     $http.get('/Bookmarks').success(function (response) {
       if (response[0].user.google) {
         $scope.ObjMessage.email = response[0].user.google.email;

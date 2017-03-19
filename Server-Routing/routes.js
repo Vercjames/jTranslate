@@ -61,6 +61,8 @@ module.exports = function(app, passport){
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function isLoggedIn(req, res, next) {
   if(req.isAuthenticated()){
+    console.log("isAuthenticated Check");
+    console.log("================================");
     return next();
   } res.redirect('/Login');
 }
