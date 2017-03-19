@@ -42,7 +42,7 @@ module.exports = function(app, passport){
   }));
 
   app.post('/Register', passport.authenticate('local-signup', {
-    successRedirect: '/',
+    successRedirect: '/Profile',
     failureRedirect: '/Register',
     failureFlash: true
   }));
@@ -61,8 +61,6 @@ module.exports = function(app, passport){
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 function isLoggedIn(req, res, next) {
   if(req.isAuthenticated()){
-    console.log("isAuthenticated Check");
-    console.log("================================");
     return next();
   } res.redirect('/Login');
 }
