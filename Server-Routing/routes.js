@@ -49,6 +49,12 @@ module.exports = function(app, passport){
 
   //social media
   // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+  app.get('/auth/facebook', passport.authenticate('facebook', { scope: [ 'email' ] }));
+  app.get('/auth/facebook/callback',
+    passport.authenticate('facebook', {
+      successRedirect: '/Profile',
+      failureRedirect: '/' }));
+
 
   app.get('/auth/google', passport.authenticate('google', {scope: ['profile', 'email']}));
   app.get('/auth/google/callback',
