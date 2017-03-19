@@ -27,8 +27,6 @@ module.exports = function(passport) {
       passReqToCallback: true
     },
     function(req, email, password, done){
-      console.log("New Registration Attempt");
-      console.log("=============================");
       process.nextTick(function(){
         User.findOne({'local.username': email}, function(err, user){
           if(err)
@@ -57,8 +55,6 @@ module.exports = function(passport) {
       passReqToCallback: true
     },
     function(req, email, password, done){
-      console.log("Local Login Attempt");
-      console.log("=============================");
       process.nextTick(function(){
         User.findOne({ 'local.username': email}, function(err, user){
           if(err)

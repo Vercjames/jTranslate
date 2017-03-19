@@ -42,7 +42,7 @@ module.exports = function(app, passport){
   }));
 
   app.post('/Register', passport.authenticate('local-signup', {
-    successRedirect: '/Profile',
+    successRedirect: '/',
     failureRedirect: '/Register',
     failureFlash: true
   }));
