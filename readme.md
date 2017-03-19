@@ -1,4 +1,4 @@
-# jTranslate
+## jTranslate
 An open source translation application
 
 ### Requirement:
